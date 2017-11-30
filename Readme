@@ -1,0 +1,20 @@
+Description:
+This is a python program that is able to determines the smallest base (greater than or equal to 2 and up to positive infinity if needed) for any range of positive integers. The default range is from 1-1000. But, it also supports customized input range using the sys.args. 
+
+
+
+User guide:
+In order to run this program using default range setting, open up the terminal and cd into the same director as the where the telnyx.py program is and copy the following line into your terminal
+
+python telnyx.py
+
+In order to set up your customize range,using the following command where you need to replace the START and END to your own positive num.The condition of START and END are both needs to be positive int,and STAR<=END, if any of the conditions does not satisfied, the default range will be
+used instead
+
+python telnyx.py START END
+
+Have fun!
+
+
+
+
